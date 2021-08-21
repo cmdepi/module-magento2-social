@@ -34,6 +34,13 @@ interface SystemConfigInterface
 
     /**
      *
+     * @const DISCORD
+     *
+     */
+    const DISCORD = 'general/store_information/discord';
+
+    /**
+     *
      * Get Facebook
      *
      * @param string|int $storeId
@@ -64,4 +71,15 @@ interface SystemConfigInterface
      *
      */
     public function getTwitter($storeId);
+
+    /**
+     *
+     * Get Discord
+     *
+     * @param string|int $storeId
+     *
+     * @return string
+     *
+     */
+    public function getDiscord($storeId);
 }

@@ -83,6 +83,20 @@ class Config implements SystemConfigInterface
 
     /**
      *
+     * Get Discord
+     *
+     * @param string|int $storeId
+     *
+     * @return string
+     *
+     */
+    public function getDiscord($storeId)
+    {
+        return $this->_getConfigData(self::DISCORD, $storeId);
+    }
+
+    /**
+     *
      * Retrieve information from service configuration
      *
      * @param string     $field

@@ -59,6 +59,17 @@
                 <field id="twitter" type="text" sortOrder="3000000" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Twitter</label>
                 </field>
+
+                <!--
+                /**
+                 *
+                 * @note 'Discord' field
+                 *
+                 */
+                -->
+                <field id="discord" type="text" sortOrder="4000000" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Discord</label>
+                </field>
             </group>
         </section>
     </system>
