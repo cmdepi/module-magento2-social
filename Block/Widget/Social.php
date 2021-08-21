@@ -97,6 +97,18 @@ class Social extends Template implements BlockInterface
 
     /**
      *
+     * Get Discord
+     *
+     * @return string
+     *
+     */
+    public function getDiscord()
+    {
+        return $this->_config->getDiscord($this->_getStoreId());
+    }
+
+    /**
+     *
      * Get store ID
      *
      * @return int

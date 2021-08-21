@@ -84,4 +84,24 @@
             <img src="<?php echo $block->getViewFileUrl('Bina_Social::images/widget/social/twitter.png') ?>">
         </a>
     <?php endif; ?>
+
+    <?php
+    /**
+     *
+     * @note Check Discord
+     *
+     */
+    ?>
+    <?php if ($discord = $block->getDiscord()): ?>
+        <?php
+        /**
+         *
+         * @note Add Discord
+         *
+         */
+        ?>
+        <a class="social discord" target="_blank" href="<?php echo $discord ?>">
+            <img src="<?php echo $block->getViewFileUrl('Bina_Social::images/widget/social/discord.png') ?>">
+        </a>
+    <?php endif; ?>
 </div>
