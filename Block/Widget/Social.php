@@ -28,7 +28,7 @@ class Social extends Template implements BlockInterface
      * @var string
      *
      */
-    protected $_template = "widget/social.phtml";
+    protected $_template = "Bina_Social::widget/social.phtml";
 
     /**
      *
