@@ -3,6 +3,10 @@
     "description": "Social",
     "type": "magento2-module",
     "version": "1.5.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
     "homepage": "https://www.binacommerce.com",
     "authors": [
         {
